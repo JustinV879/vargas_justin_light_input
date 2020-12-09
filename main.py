@@ -3,4 +3,4 @@ while True:
     if (input.light_level()) >= 1:
         light.set_all(light.rgb(0,0,255))
     elif (input.light_level()) > 10:
-            light.clear()
+            light.set_all(light.rgb(255,255,0))
